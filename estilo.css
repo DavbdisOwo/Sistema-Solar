@@ -1,0 +1,96 @@
+body{
+    height: 800px ;
+    background-color: blue;
+    background-image:url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/09/sistema-solar-2086751.jpg?itok=meDMSlJk");
+    color:darkturquoise;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center ;
+    background-position-y: center ;
+    background-attachment: fixed ; /*scroll-texto se nombra y la img queda*/
+}
+
+.menu{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+    width: 100%;
+    background:blueviolet;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: darkturquoise;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: left;
+}
+
+.menu li a:hover{
+    background: #ef8334;;
+}
+header{
+    background-color: gold;
+    text-align: center;
+    color: blue;
+    width: 200%;
+}
+
+nav{
+    width: 100%;
+    height:5%;
+}
+
+.navigation{
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    position: relative;
+}
+
+.navigation img{
+    position: absolute;
+    right: 1rem;
+    width: 20%;
+}
+
+h2{
+    color:green;
+    text-decoration:underline;
+    text-transform: initial;
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic; /*cursiva*/
+    font-weight: bold;
+    text-shadow: 1px -1px 3px red;
+}
+h3{
+    color:yellow;
+    text-decoration:underline;
+    text-transform: initial;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: none; /*cursiva*/
+    font-weight: bold;
+    text-shadow: 1px -1px 2px blue;
+}
+h4{
+    color:black;
+    text-decoration:underline;
+    text-transform: initial;
+    letter-spacing: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic; /*cursiva*/
+    font-weight: bold;
+    text-shadow: 3px -1px 3px blue;
+}
+footer svg{
+    width:2%
+}
