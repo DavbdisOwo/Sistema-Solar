@@ -1,0 +1,67 @@
+body{
+    height: 800px ;
+    background-color: blue;
+    background-image:url("https://estaticos.muyinteresante.es/uploads/images/article/602267985bafe804da50c09b/hechas-estrellas_0.jpg");
+    color:darkturquoise;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center ;
+    background-position-y: center ;
+    background-attachment: fixed ; /*scroll-texto se nombra y la img queda*/
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: rgba(4, 220, 249, 0.975);
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height:2%;
+}
+
+.navigation{
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    position: relative;
+}
+
+.navigation img{
+    position: absolute;
+    right: 6rem;
+    width: 22%;
+}
+
+.menu{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+    width: 25%;
+    background:white;
+}
+
+menu:active{
+    background-color: blue;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: darkturquoise;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: left;
+}
+
+.menu li a:hover{
+    background: #ef8334;;
+}
