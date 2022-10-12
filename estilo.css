@@ -15,8 +15,12 @@ body{
     margin: auto;
     padding: 0;
     max-width: 1000px;
-    width: 100%;
+    width: 25%;
     background:blueviolet;
+}
+
+menu:active{
+    background-color: blue;
 }
 
 .menu li a{
@@ -38,7 +42,7 @@ header{
     background-color: gold;
     text-align: center;
     color: blue;
-    width: 200%;
+    width: 300%;
 }
 
 nav{
@@ -60,6 +64,10 @@ nav{
     right: 1rem;
     width: 20%;
 }
+
+/*img hover{
+    transform: scaleX(-1);
+    -webkit-box-reflect: right;*/
 
 h2{
     color:green;
